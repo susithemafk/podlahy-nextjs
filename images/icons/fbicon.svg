@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="121" viewBox="0 0 119 121">
+  <defs>
+    <filter id="Path_8" x="49.654" y="54.227" width="46.188" height="25.957" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_6" x="59.024" y="34.466" width="36.649" height="73.851" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_19" x="18" y="18" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="fbicon" transform="translate(24 24)">
+    <rect id="Rectangle_37" data-name="Rectangle 37" width="119" height="121" rx="40" transform="translate(-24 -24)" fill="#276c4c"/>
+    <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
+      <g transform="matrix(1, 0, 0, 1, -24, -24)" filter="url(#Path_8)">
+        <path id="Path_8-2" data-name="Path 8" d="M248.722,509.485v7.957h26.63l1.558-7.957Z" transform="translate(-193.07 -449.26)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -24, -24)" filter="url(#Path_6)">
+        <path id="Path_6-2" data-name="Path 6" d="M264.109,543.96s-.652-37.247,0-43.523,5.216-8.558,14.182-8.232" transform="translate(-194.76 -447.71)" fill="none" stroke="#fff" stroke-width="8"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -24, -24)" filter="url(#Rectangle_19)">
+        <g id="Rectangle_19-2" data-name="Rectangle 19" transform="translate(24 24)" fill="none" stroke="#fff" stroke-width="6">
+          <rect width="74" height="74" rx="15" stroke="none"/>
+          <rect x="3" y="3" width="68" height="68" rx="12" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

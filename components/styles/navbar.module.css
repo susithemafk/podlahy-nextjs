@@ -1,0 +1,27 @@
+.nav {width: auto; display: block; padding: 0; margin: 0; }
+.logo {
+    font-family: Basement Grotesque;
+    line-height: 80%;
+    font-size: 3vw;
+}
+.header {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 0;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 125px 0 50px;
+}
+.ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.li {
+    margin-left: 20px;
+}

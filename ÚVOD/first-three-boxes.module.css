@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container div { /*hnedej box*/
+    font-size: 3.5vw;
+    width: 100%;
+    background-color: #502800;
+    /* box-shadow: inset rgba(0, 0, 0, 0.2) -20px 15px 0px; */
+    text-align: center;
+    font-family: Montserrat;
+
+    transition: box-shadow 0.35s;
+}
+.container div.active {box-shadow: inset rgba(0, 0, 0, 0.3) 15px 15px 0;}
+.container h3 { /*služby naše práce kontakt*/
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    text-shadow: 10px 5px 0px rgba(0, 0, 0, 0.30);
+}
+.container ul {list-style: none;}
+
+.container hr {margin: 0 auto;}
+.container div:nth-child(1) hr {width: 70%;}
+.container div:nth-child(2) hr {width: 95%;}
+.container div:nth-child(3) hr {width: 80%;}
+.container ul {
+    margin-top: 30px;
+    font-size: 1.5vw;
+    text-align: start;
+    padding-left: 50px; 
+}
+.container ul li {
+    padding: 10px 0;
+}
+
+.right ul {
+    text-align: center;
+}

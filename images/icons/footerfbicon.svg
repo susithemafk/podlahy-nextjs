@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="92" viewBox="0 0 91 92">
+  <defs>
+    <filter id="Rectangle_48" x="0" y="0" width="91" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="footer-fb-icon" transform="translate(18.606 16.606)">
+    <path id="Path_8" data-name="Path 8" d="M248.722,509.485v6.536H270.6l1.28-6.536Z" transform="translate(-226.719 -479.727)" fill="#fff"/>
+    <path id="Path_6" data-name="Path 6" d="M264.058,534.714s-.536-30.6,0-35.752,4.285-7.03,11.649-6.762" transform="translate(-230.808 -475.367)" fill="none" stroke="#fff" stroke-width="8"/>
+    <g transform="matrix(1, 0, 0, 1, -18.61, -16.61)" filter="url(#Rectangle_48)">
+      <g id="Rectangle_48-2" data-name="Rectangle 48" transform="translate(15 15)" fill="none" stroke="#fff" stroke-width="5">
+        <rect width="61" height="62" rx="14" stroke="none"/>
+        <rect x="2.5" y="2.5" width="56" height="57" rx="11.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

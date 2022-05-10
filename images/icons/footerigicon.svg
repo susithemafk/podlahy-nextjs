@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="92" viewBox="0 0 91 92">
+  <defs>
+    <filter id="Rectangle_2" x="0" y="0" width="91" height="92" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_2" x="43" y="10" width="38" height="39" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="15" y="15" width="61" height="62" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="footer-ig-icon" transform="translate(-8.431 -8.718)">
+    <g id="Group_6" data-name="Group 6" transform="translate(23.713 23.713)">
+      <g transform="matrix(1, 0, 0, 1, -15.28, -14.99)" filter="url(#Rectangle_2)">
+        <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(15 15)" fill="none" stroke="#fff" stroke-width="5">
+          <rect width="61" height="62" rx="14" stroke="none"/>
+          <rect x="2.5" y="2.5" width="56" height="57" rx="11.5" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -15.28, -14.99)" filter="url(#Ellipse_2)">
+        <ellipse id="Ellipse_2-2" data-name="Ellipse 2" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(58 25)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -15.28, -14.99)" filter="url(#Ellipse_3)">
+        <g id="Ellipse_3-2" data-name="Ellipse 3" transform="translate(30 30)" fill="none" stroke="#fff" stroke-width="5">
+          <ellipse cx="15.5" cy="16" rx="15.5" ry="16" stroke="none"/>
+          <ellipse cx="15.5" cy="16" rx="13" ry="13.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+.firstScreen {
+overflow-y: hidden;
+max-height: 100vh;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 22vh;
+    font-family: Basement Grotesque;
+    margin: 0;
+    text-align: center;
+}
+.div {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5vw;
+}
+.div h1 {
+    flex: 1;
+    text-align: start;
+}
+.div .imgdiv {flex: 1; padding: 0 15%;}
+
+.section h1 { /*podlahy sucharda, kvalitní pokládka podlah*/
+    margin: 0;
+    font-size: 5vw;
+}
+.section h2 { /*nazev stranky*/
+    margin: 0;
+    font-size: 5vw;
+    margin-top: 20px;
+}
+
