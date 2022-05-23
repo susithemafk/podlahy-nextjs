@@ -30,6 +30,7 @@ const FirstScreen = ({ pageName }: { pageName: String }) => {
 
             
         </section>
+        <h2 className = "h2">{pageName}</h2>
     </div>
   )
 }

@@ -1,9 +1,48 @@
+.blueBoxes {
+    margin-bottom: 6vw;
+}
 .container {
     display: flex; 
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10vw;
+    color: white;
+    font-family: Montserrat;
 }
-.container div {
-    height: 200px;
-    width: 300px;
+.container > div {
+    width: 25vw;
     background-color: #1C477F;
+    padding: 1.75vw 2vw 0;
+}
+.container ul {
+    list-style: none;
+    margin: 1vw 0 1.75vw;
+    padding: 0 2.5vw;
+}
+.container ul li {
+    font-size: 1.5vw;
+    font-weight: 200;
+    padding: 0.2vw 0;
+}
+.leftBox ul li {
+    border-bottom: rgb(255, 255, 255) 1px solid;
+}
+.rightBox ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+}
+.container h3 { /*SLUŽBY A KONTAKT*/
+    font-size: 3.5vw;
+    margin-bottom: 1.25vw;
+    text-align: center;
+    text-shadow: 8px 2px 0px rgba(0, 0, 0, 0.16);
+}
+.container hr {
+    border: 0;
+    border-bottom: 2px solid white;
+}
+
+@media (max-width: 600px) {
 }

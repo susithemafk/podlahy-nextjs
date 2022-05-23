@@ -1,0 +1,48 @@
+
+
+.karta {
+    background-color: #5A4E94;
+    color: white;
+    display: flex;
+    flex: 1;
+    margin: 100px 20px 0;
+}
+.karta div {
+    flex: 1;
+    /* padding: 25px 0 25px 25px; */
+}
+.karta div h3, .karta div p {
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+.karta div h3 {
+    padding: 25px 25px 0;
+}
+.karta div p {
+    font-size: 1.25vw;
+    font-weight: 400;
+    margin-top: -5px;
+    padding: 0 25px 25px;
+}
+.karta .imgparent {
+    background-color: green;
+    padding: 0;
+    margin: 0;
+}
+.karta .imgparent {
+    display: flex;
+    overflow-x: hidden;
+}
+.img {
+    max-height: 10vh;
+}
+.podkartou {
+    background-color: #2b00ff;
+    color: white;
+    display: flex;
+    margin: 0 20px 0;
+}
+.podkartou div {
+    flex: 1;
+}

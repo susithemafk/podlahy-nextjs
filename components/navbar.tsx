@@ -2,10 +2,10 @@ import type { NextPage } from 'next'
 import Link from 'next/link'
 import styles from './styles/navbar.module.css'
 
-const NavBar: NextPage = () => {
+const NavBar = () => {
   return (
     <header id = "header-wide" className = {styles.header} > 
-        <p className = {styles.logo}>PODLAHY<br />SUCHARDA</p>
+        <Link href = "/"><p className = {styles.logoo}>PODLAHY<br />SUCHARDA</p></Link>
         <nav className = {styles.nav}>
             <ul className = {styles.ul}>  
                 <li className = {styles.li}><Link href = "/">ÚVOD</Link></li>

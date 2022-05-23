@@ -1,0 +1,47 @@
+
+
+
+.trislova {
+    margin: 4vw;
+}
+.trislova h5 {
+    text-align: center;
+    font-family: Niagara Solid;
+    font-size: 8vw;
+    font-weight: 100;
+}
+.main em {
+    font-weight: 800;
+    font-style: normal;
+}
+.ozvetesenam {display: flex; flex-direction: column;}
+.ozvetesenam p {margin: 1vw;}
+.button {
+    font-family: Montserrat;
+    background-color: orange;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 12px 30px;
+    font-size: 1.75vw;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.zajimavasvicediv {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    color: white;
+    background-color: #2E1E1D;
+    font-family: Montserrat;
+    margin: 0 auto 30px;
+    padding: 20px 30px;
+}
+.zajimavasvice:nth-child(1) {background-color: blue;}
+.zajimavasvicediv p:nth-child(1) {font-size: 2vw;}
+.zajimavasvicediv p:nth-child(2) {font-size: 1.25vw;}
+.zajimavasvicediv button {margin: auto 0 0 auto;}
+
+@media (max-width: 600px) {
+  
+}

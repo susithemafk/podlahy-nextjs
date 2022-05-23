@@ -12,10 +12,22 @@ const BlueBoxes = () => {
           <h3>SLUŽBY</h3>
           <hr />
           <ul>
-            <li>Pokládka podlah<hr /></li>
-            <li>Obklady schodů<hr /></li>
-            <li>Srovnání povrchu<hr /></li>
-            <li>Nevim co ještě<hr /></li>
+            <li>Pokládka podlah</li>
+            <li>Obklady schodů</li>
+            <li>Srovnání povrchu</li>
+            <li>Nevim co ještě</li>
+          </ul>
+        </div>
+        <div className = {styles.rightBox}>
+          <h3>KONTAKT</h3>
+          <hr />
+          <ul>
+            <li>+420 777 023 023</li>
+            <li>
+              <Image src = {footerfbicon} layout = "intrinsic" width = {60} height = {60} />
+              <Image src = {footerigicon} layout = "intrinsic" width = {60} height = {60} />
+            </li>
+            <li>info@podlahy-sucharda.cz</li>
           </ul>
         </div>
       </section>

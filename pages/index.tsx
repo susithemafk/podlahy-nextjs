@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import ButtonSmall from '../components/buttons/button-small'
 import FirstScreen from '../components/first-screen'
 import NavBar from '../components/navbar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/index.module.css'
 import BlueBoxes from '../ÚVOD/blue-boxes'
+import ContactForm from '../ÚVOD/contact-form'
 import FirstThreeBoxes from '../ÚVOD/first-three-boxes'
 
 const Home: NextPage = () => {
@@ -16,12 +18,47 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className = {styles.main}>
         <NavBar />
-        <FirstScreen pageName = {"ÚVOD"} />
-        {/* <FirstThreeBoxes /> */}
-        <p>Jsme malá rodinná firma, která umí poskytnout kvalitní služby a moderní přístup v oblasti pokládky podlah. Zkušeností máme nespočet, a proto jsme schopni Vám vždy co nejlépe poradit. </p>
+        <FirstScreen pageName = {"ÚVOD"} /> 
+        <h4 className = "h4">Jsme malá rodinná firma, která umí poskytnout kvalitní služby a moderní přístup v oblasti pokládky podlah. Zkušeností máme nespočet, a proto jsme schopni Vám vždy co nejlépe poradit. </h4>
         <BlueBoxes />
+        <div className = {styles.poskytujeme}>
+          <h3 className = "h3">POSKYTUJEME</h3>
+          <p className = "p">pokládku všech druhů podlahových krytin do všech různých prostor, dle zákazníkova přání. Pokládáme jak v rodinných domech, tak i v komerčních prostorech. </p>
+        </div>
+        <div className = {styles.trislova}>
+          <h5>KOBERCE</h5>
+          <h5>PVC</h5>
+          <h5>VINYLY</h5>
+        </div>
+        <p className = "p">Rádi Vám <em>poradíme s výběrem podlahy</em>. Ukážeme Vám různé varianty a předáme <em>vzorník</em>. Poradíme Vám s tím, kam se jaký druh krytiny hodí a vysvětlíme Vám <em>výhody různých materiálů. </em></p>
+        <p className = "p">Kromě samotné pokládky nabízíme také <em>stržení a likvidaci</em> staré podlahy včetně následného <em>srovnání a vybroušení</em> povrchu <em>k lepšímu výsledku</em> pro podlahu novou. </p>
+        <div className = {styles.ozvetesenam}>
+          <p className = "p">OZVĚTE SE NÁM <br />Po - Pá 9:00 - 18:00 <br />PRO NAZÁVAZNOU KONZULTACI</p>
+          <ButtonSmall val = "+420 777 023 023" />
+        </div>
+        <div className = {styles.zajimavasvice} >
+          <h3 className = "h3" style = {{margin: "5vw 0 1vw"}}>Zajímá Vás více?</h3>
+          <div className = {styles.zajimavasvicediv}>
+            <p>NAŠE PRÁCE</p>
+            <p>Zde najdete několik zakázek, na kterých jsme pracovali. O každé si můžete něco málo přečíst a podívat se na celkovou proměnu prostoru po naší práci. </p>
+            <ButtonSmall val = "VÍCE..." />
+          </div>
+          <div className = {styles.zajimavasvicediv}>
+            <p>POSTUP</p>
+            <p>Ohledně postupu práce se dozvíte více na této stránce. Připravili jsme si zde pro Vás stručný popis toho, jak taková pokládka podlahy probíhá, abyste měli představu, co Vás čeká, potom co nás kontaktujete. </p>
+            <ButtonSmall val = "VÍCE..." />
+          </div>
+          <div className = {styles.zajimavasvicediv}>
+            <p>O PODLAHÁCH</p>
+            <p>Rozdíl mezi vinylem a PVC Vám vysvětlíme na stránce o podlahách. Dozvíte se zde něco o tom, kam se jaký druh podlahové krytiny hodí a kde naopak, není vhodný a proč. </p>
+            <ButtonSmall val = "VÍCE..." />
+          </div>
+          <ContactForm />
+        </div>
+
+
       </main>
 
     </div>

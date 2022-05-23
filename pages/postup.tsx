@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import FirstScreen from '../components/first-screen'
 import NavBar from '../components/navbar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/index.module.css'
 
 const Postup: NextPage = () => {
   return (
@@ -17,6 +17,7 @@ const Postup: NextPage = () => {
       <main>
         <NavBar />
         <FirstScreen pageName = {"POSTUP"} />
+        <h4 className = "h4">Přiblížíme Vám, jak probíhá taková pokládka podlahy. Co Vás čeká při spolupráci s námi, kolik času zaberou přípravy a kolik času samotná pokládka. </h4>
       </main>
 
     </div>

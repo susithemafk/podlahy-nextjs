@@ -1,14 +1,10 @@
-import type { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
+import { useState, useEffect } from "react";
+import styles from "./button-small.module.css"
 
-const ButtonSmall: NextPage<Props> = () => {
+const ButtonSmall = ({ val }: { val: String }) => {
+  
   return (
-    <div className={styles.container}>
-        <nav>
-            <p>Button Small</p>
-        </nav>
-
-    </div>
+      <button className = {styles.button}>{val}</button>
   )
 }
 

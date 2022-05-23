@@ -1,0 +1,17 @@
+.button {
+    font-family: Montserrat; 
+    background-color: orange; 
+    border-radius: 15px; 
+    margin: 0 auto; 
+    padding: 12px 30px; 
+    font-size: 1.75vw; 
+    color: white; 
+    border: 0; 
+    cursor: pointer; 
+}
+
+@media (max-width: 600px) {
+.button {
+    background-color: blue;
+}  
+}

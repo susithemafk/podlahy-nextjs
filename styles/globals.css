@@ -41,3 +41,23 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(59, 59, 59);
 }
+.h3, .h2 {
+  font-family: Basement Grotesque;
+  font-weight: 600;
+  font-size: 4vw;
+  text-align: center;
+}
+.h2 {
+  font-size: 4.5vw;
+}
+.h4, .p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 0 10vw;
+  margin-bottom: 3vw;
+}
+.h4 {
+  padding: 0 20vw;
+}

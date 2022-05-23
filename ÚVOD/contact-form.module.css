@@ -1,0 +1,35 @@
+.contactForm {
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+.form {
+    display: flex;
+    gap: 2vw;
+    padding: 0 20vw;
+    margin-bottom: 2vw;
+}
+.formLeft {flex: 1;}
+.formRight{flex: 1;}
+
+.formLeft input, .formLeft select {
+    width: 100%;
+    border: 0;
+    border-bottom: 0.5px rgb(212, 212, 212) solid;
+    font-size: 1.25vw;
+    margin: 8px 0 0;
+    padding: 0 4px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.formRight {
+    font-size: 1.25vw;
+    padding: 5px;
+    font-family: Montserrat;
+}
+.formLeft input:focus, .formLeft select:focus, .formRight:focus {
+    outline: 0;
+}

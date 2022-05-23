@@ -3,7 +3,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import FirstScreen from '../components/first-screen'
 import NavBar from '../components/navbar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/nase-prace.module.css'
+
+import img1 from '../images/nase-prace/posu.jpg'
+import img2 from '../images/nase-prace/posu1.jpg'
 
 const NasePrace: NextPage = () => {
   return (
@@ -17,6 +20,18 @@ const NasePrace: NextPage = () => {
       <main>
         <NavBar />
         <FirstScreen pageName = {"NAŠE PRÁCE"} />
+        <h4 className = "h4">Pracovali jsme na mnoha zajímavých zakázkách, na které se níže na této stránce můžete podívat. Všechny zakázky děláme nejlépe jak umíme, a i proto, se k nám zákazníci vrací. </h4>
+        <h3 className = "h3">Vinyl v rodinném bytě</h3>
+        <div className = {styles.imgcontainer} >
+          <Image src = {img1} layout = "fill" objectFit='contain' />
+        </div>
+        <div className = {styles.imgcontainer} >
+          <Image src = {img2} layout = "fill" objectFit='contain' />
+        </div>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
       </main>
 
     </div>

@@ -3,7 +3,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import FirstScreen from '../components/first-screen'
 import NavBar from '../components/navbar'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/o-podlahach.module.css'
+
+import posu from '../images/nase-prace/posu1.jpg'
+import posu1 from '../images/nase-prace/posu2.jpg'
+import posu2 from '../images/nase-prace/posu3.jpg'
+import posu3 from '../images/nase-prace/posu4.jpg'
+import posu4 from '../images/nase-prace/posu5.jpg'
+import posu5 from '../images/nase-prace/posu6.jpg'
+import posu6 from '../images/nase-prace/posu7.jpg'
 
 const OPodlahach: NextPage = () => {
   return (
@@ -17,6 +25,95 @@ const OPodlahach: NextPage = () => {
       <main>
         <NavBar />
         <FirstScreen pageName = {"O PODLAHÁCH"} />
+        <h4 className = "h4">Koberec do kuchyně nebo snad PVC v koupelně??! Ne každý ví, kam se jaká podlaha nejlépe hodí. Níže Vám popíšeme, proč a jakou podlahu kam vybrat. </h4>
+  
+        <div className = {styles.karta}>
+            <div>
+                <h3 className = "h3">KOBEREC</h3>
+                <p className = "p">Koberec asi známe všichni. Dnes existují stovky druhů. Můžete si vybrat levnější kancelářský nebo dražší hustější a jemnější. Koberec asi známe všichni. Dnes existují stovky druhů. Můžete si vybrat levnější kancelářský nebo dražší hustější a jemnější. Koberec asi známe všichni. Dnes existují stovky druhů. Můžete si vybrat levnější kancelářský nebo dražší hustější a jemnější. Koberec asi známe všichni. Dnes existují stovky druhů. Můžete si vybrat levnější kancelářský nebo dražší hustější a jemnější. </p>
+            </div>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '60%', height: '100%'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu} />
+              </div>
+            </div>
+        </div>
+        <div className = {styles.podkartou}>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '100%', height: '40vh'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu1} />
+              </div>
+            </div>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '100%', height: '100%'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu2} />
+              </div>
+            </div>
+        </div>
+
+
+
+        <div className = {styles.karta}>
+            <div>
+                <h3 className = "h3">PVC</h3>
+                <p className = "p">Vinylová podlaha je vyrobena z plastu PVC a dodává se buď v rolích nebo po dílech, které se k sobě následně skládají. Vinyl v roli vyniká v jednoduchosti údržby - prach se dá lehce zamést nebo vytřít. Využít se dají kdekoli. Nejvíce jsou využívané v obývacích prostorech a v kancelářích nebo ve školách. Vinyl v roli vyniká v jednoduchosti údržby - prach se dá lehce zamést nebo vytřít. Využít se dají kdekoli. </p>
+            </div>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '60%', height: '100%'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu3} />
+              </div>
+            </div>
+        </div>
+        <div className = {styles.podkartou}>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '100%', height: '40vh'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu4} />
+              </div>
+            </div>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '100%', height: '100%'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu5} />
+              </div>
+            </div>
+        </div>
+
+
+
+        <div className = {styles.karta}>
+            <div>
+                <h3 className = "h3">VINYL</h3>
+                <p className = "p">Vinyl skládaný vypadá o něco lépe než vinyl v roli. Využívá se hlavně do kuchyní a obývacích pokojů, kde dokáže svým vzhledem skvěle vyniknout. Vinyl skládaný vypadá o něco lépe než vinyl v roli. Využívá se hlavně do kuchyní a obývacích pokojů, kde dokáže svým vzhledem skvěle vyniknout. Vinyl skládaný vypadá o něco lépe než vinyl v roli. Využívá se hlavně do kuchyní a obývacích pokojů, kde dokáže svým vzhledem.</p>
+            </div>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '60%', height: '100%'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu6} />
+              </div>
+            </div>
+        </div>
+        <div className = {styles.podkartou}>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '100%', height: '40vh'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu1} />
+              </div>
+            </div>
+            <div className = {styles.imgparent}>
+              <div style={{  position: 'relative', width: '100%', height: '100%'}}>
+                <Image className = {styles.img} layout = "fill" objectFit = "cover" src = {posu3} />
+              </div>
+            </div>
+        </div>
+
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+        <p>k</p>
+      
       </main>
 
     </div>

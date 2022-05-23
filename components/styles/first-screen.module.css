@@ -1,6 +1,6 @@
 .firstScreen {
 overflow-y: hidden;
-max-height: 100vh;
+max-height: 130vh;
 }
 .section {
     display: flex;
